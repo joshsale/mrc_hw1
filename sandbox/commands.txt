@@ -1,0 +1,15 @@
+joshsale@lauhau:~$ cd ~
+joshsale@lauhau:~$ mkdir sandbox
+joshsale@lauhau:~$ gedit commands.txt
+    
+joshsale@lauhau:~$ 
+joshsale@lauhau:~$ mv "commands.txt" sandbox
+joshsale@lauhau:~$ gedit file1.txt
+joshsale@lauhau:~$ gedit file2.txt
+joshsale@lauhau:~$ mkdir dir1
+joshsale@lauhau:~$ mkdir dir2
+joshsale@lauhau:~$ mv "file1.txt" dir1
+joshsale@lauhau:~$ mv "file2.txt" dir2
+joshsale@lauhau:~$ mv dir1 sandbox
+joshsale@lauhau:~$ mv dir2 sandbox
+
