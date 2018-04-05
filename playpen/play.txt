@@ -1,0 +1,16 @@
+
+joshsale@lauhau:~$ cp -R sandbox playpen
+joshsale@lauhau:~$ mv sandbox playpen
+joshsale@lauhau:~$ mv dir1 folder1
+mv: cannot stat 'dir1': No such file or directory
+joshsale@lauhau:~$ pwd
+/home/joshsale
+joshsale@lauhau:~$ cd playpen
+joshsale@lauhau:~/playpen$ mv dir1 folder1
+joshsale@lauhau:~/playpen$ mv dir2 folder2
+joshsale@lauhau:~/playpen$ mv play.txt commands.txt
+mv: cannot stat 'play.txt': No such file or directory
+joshsale@lauhau:~/playpen$ mv commands.txt play.txt
+joshsale@lauhau:~/playpen$ cd ~
+joshsale@lauhau:~$ 
+
